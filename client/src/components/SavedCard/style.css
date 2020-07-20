@@ -1,0 +1,28 @@
+.card {
+  width: 100%;
+  height: 330px;
+}
+
+.viewBtn {
+  margin: 0px 3px;
+}
+
+.deleteBtn {
+}
+
+.booktitle {
+  float: left;
+}
+
+.author {
+  float: left;
+}
+.card-img-top {
+  width: 192px;
+  float: left;
+  margin-top: 3px;
+}
+
+.card-text {
+  font-size: 14px;
+}

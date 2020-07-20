@@ -1,0 +1,9 @@
+.jumbotronWrapper {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.jumbotron {
+  display: inline-block;
+  width: 90%;
+}

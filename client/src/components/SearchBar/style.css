@@ -1,0 +1,12 @@
+.searchHeader {
+  float: left;
+}
+
+.searchBtn {
+  float: right;
+}
+
+.searchContainer {
+  height: 225px;
+  padding: 42px 32px;
+}
