@@ -25,7 +25,10 @@ app.get("/*", (req, res) => {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/booklist");
+mongoose.connect(
+  process.env.MONGODB_URI ||
+    "mongodb://heroku_3sf36vkl:qwer1234@ds163330.mlab.com:63330/heroku_3sf36vkk"
+);
 
 app.listen(PORT, function () {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
